@@ -22,6 +22,12 @@ const routes: Routes = [
       canActivate: [AuthGuard],
       canActivateChild: [AuthGuard]
     },
+    {
+      path: 'movies-popolar/:id', loadChildren: () => import('./pages/movie-detail/movie-detail.module').then(m => m.MovieDetailModule),
+      canActivate: [AuthGuard],
+      canActivateChild: [AuthGuard]
+    },
+
 
 ];
 

@@ -18,6 +18,13 @@
       "nome": "Davide",
       "cognome": "Frattini",
       "id": 3
+    },
+    {
+      "email": "test@testone.it",
+      "password": "$2a$10$dpyhFepl/aqP99yng5cTeeBb6Jngp1TstPVPzqWXudpYKp5iV4Vqe",
+      "nome": "test",
+      "cognome": "testone",
+      "id": 4
     }
   ],
   "movies-popolar": [
@@ -202,6 +209,11 @@
       "movieId": 1,
       "userId": 3,
       "id": 6
+    },
+    {
+      "movieId": 8,
+      "userId": 3,
+      "id": 7
     }
   ]
 }
