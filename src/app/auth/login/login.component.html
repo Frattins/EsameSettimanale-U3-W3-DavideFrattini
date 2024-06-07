@@ -1,0 +1,30 @@
+<div
+  class="container-fluid d-flex justify-content-center vh-100 bg-dark-subtle pt-5"
+>
+  <form>
+    <h2>Inserisci le tue credenziali</h2>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email</label>
+      <input
+        [(ngModel)]="authdata.email"
+        name="email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Inserisci la tua email"
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input
+        type="password"
+        [(ngModel)]="authdata.password"
+        name="password"
+        class="form-control"
+        id="exampleInputPassword1"
+        placeholder="Password"
+      />
+    </div>
+    <button (click)="signIn()" class="btn btn-primary my-3">Accedi</button>
+  </form>
+</div>

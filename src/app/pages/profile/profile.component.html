@@ -1,0 +1,47 @@
+<div class="row test pb-5 pt-2">
+  <div class="col-6">
+    <div class="container d-flex flex-column">
+      <p class="my-3 fs-1 text-light">My Profile:</p>
+      <div class="p-4">
+        <p class="fs-4 alert alert-info p-2">
+          First Name: <b>{{ user.nome | titlecase }}</b>
+        </p>
+        <p class="fs-4 alert alert-info p-2">
+          Last Name: <b>{{ user.cognome | titlecase }}</b>
+        </p>
+        <p class="fs-4 alert alert-info p-2">
+          Email: <b>{{ user.email }}</b>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<h2>Favorite Movies</h2>
+<div class="row gap-3 justify-content-center">
+  <div class="col-md-3" *ngFor="let movie of userFavorites">
+    <div class="card h-100">
+      <img
+        [src]="movie.photo"
+        class="card-img-top"
+        alt="Card image cap"
+        style="height: 300px; object-fit: contain"
+      />
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">{{ movie.title }}</h5>
+        <p class="card-text">
+          <small class="text-muted">{{ movie.year }}</small>
+        </p>
+        <p class="card-text fst-italic">{{ movie.genre }}</p>
+        <p class="card-text flex-grow-1">{{ movie.description }}</p>
+        <div class="d-flex justify-content-between mt-auto">
+          <button
+            class="btn btn-danger"
+            (click)="removeFromFavorites(movie.id)"
+          >
+            Rimuovi
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

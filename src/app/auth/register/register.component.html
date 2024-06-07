@@ -1,0 +1,50 @@
+<div
+  class="container-fluid d-flex justify-content-center vh-100 bg-dark-subtle pt-5"
+>
+  <form>
+    <h2>Inserisci i tuoi dati</h2>
+    <div class="form-group">
+      <label>Name</label>
+      <input
+        type="text"
+        [(ngModel)]="newUser.nome"
+        name="nome"
+        class="form-control"
+        aria-describedby="emailHelp"
+        placeholder="Inserisci il tuo nome"
+      />
+      <label>Surname</label>
+      <input
+        type="text"
+        [(ngModel)]="newUser.cognome"
+        name="cognome"
+        class="form-control"
+        aria-describedby="emailHelp"
+        placeholder="Inserisci il tuo cognome"
+      />
+      <label>Email address</label>
+      <input
+        type="email"
+        [(ngModel)]="newUser.email"
+        name="email"
+        class="form-control"
+        aria-describedby="emailHelp"
+        placeholder="Inserisci la tua mail"
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input
+        type="password"
+        [(ngModel)]="newUser.password"
+        name="password"
+        class="form-control"
+        id="exampleInputPassword1"
+        placeholder="Password"
+      />
+    </div>
+    <button (click)="register()" class="btn btn-primary mt-3">
+      Registrati
+    </button>
+  </form>
+</div>

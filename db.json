@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "email": "davide@davide.it",
+      "password": "$2a$10$VArM3RT4gE680ZQy2wu.OugPfau0DNHEpT1Fq2Asq/iHMGdH0pH9S",
+      "nome": "davide",
+      "id": 1
+    },
+    {
+      "email": "pizza@diavola.it",
+      "password": "$2a$10$0Ss99R5vqW0NPyhUAbyQeeeriMJGLcT4P2KVSgaDppypW1xoRvGa.",
+      "nome": "ciao prof",
+      "id": 2
+    },
+    {
+      "email": "davide.frattini@epicode.com",
+      "password": "$2a$10$camW64YAVJlS4TxggSnfHeHyklweVYmJWjJ7ccQcIHabSTjqdpwHO",
+      "nome": "Davide",
+      "cognome": "Frattini",
+      "id": 3
+    }
+  ],
+  "movies-popolar": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "photo": "https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg",
+      "genre": "Drama",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "year": 1972,
+      "photo": "https://upload.wikimedia.org/wikipedia/en/a/af/The_Godfather%2C_The_Game.jpg",
+      "genre": "Crime",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "photo": "https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg",
+      "genre": "Action",
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham."
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "photo": "https://m.media-amazon.com/images/S/pv-target-images/dbb9aff6fc5fcd726e2c19c07f165d40aa7716d1dee8974aae8a0dad9128d392.jpg",
+      "genre": "Crime",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+    {
+      "id": 5,
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "photo": "https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg",
+      "genre": "Adventure",
+      "description": "Gandalf and Aragorn lead the World of Men against Sauron\"s army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    },
+    {
+      "id": 6,
+      "title": "Forrest Gump",
+      "year": 1994,
+      "photo": "https://m.media-amazon.com/images/S/pv-target-images/2d0c9e38968936e6711c7fb2bc7895b82d8bb9178b5a854e14dffa4b17b88487.jpg",
+      "genre": "Drama",
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75."
+    },
+    {
+      "id": 7,
+      "title": "Inception",
+      "year": 2010,
+      "photo": "https://m.media-amazon.com/images/M/MV5BZGFjOTRiYjgtYjEzMS00ZjQ2LTkzY2YtOGQ0NDI2NTVjOGFmXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg",
+      "genre": "Sci-Fi",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+    },
+    {
+      "id": 8,
+      "title": "Fight Club",
+      "year": 1999,
+      "photo": "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
+      "genre": "Drama",
+      "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much, much more."
+    },
+    {
+      "id": 9,
+      "title": "The Matrix",
+      "year": 1999,
+      "photo": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg",
+      "genre": "Sci-Fi",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+    },
+    {
+      "id": 10,
+      "title": "Goodfellas",
+      "year": 1990,
+      "photo": "https://media.posterlounge.com/img/products/760000/751818/751818_poster.jpg",
+      "genre": "Biography",
+      "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
+    },
+    {
+      "id": 11,
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "photo": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "genre": "Thriller",
+      "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+    },
+    {
+      "id": 12,
+      "title": "Schindler\"s List",
+      "year": 1993,
+      "photo": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "genre": "Biography",
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+    },
+    {
+      "id": 13,
+      "title": "The Lion King",
+      "year": 1994,
+      "photo": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_FMjpg_UX1000_.jpg",
+      "genre": "Animation",
+      "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
+    },
+    {
+      "id": 14,
+      "title": "Interstellar",
+      "year": 2014,
+      "photo": "https://pad.mymovies.it/filmclub/2014/01/001/locandina.jpg",
+      "genre": "Sci-Fi",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity\"s survival."
+    },
+    {
+      "id": 15,
+      "title": "Gladiator",
+      "year": 2000,
+      "photo": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "genre": "Action",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
+    },
+    {
+      "id": 16,
+      "title": "The Green Mile",
+      "year": 1999,
+      "photo": "https://m.media-amazon.com/images/I/419BCTX1CGL._AC_UF1000,1000_QL80_.jpg",
+      "genre": "Crime",
+      "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift."
+    },
+    {
+      "id": 17,
+      "title": "The Prestige",
+      "year": 2006,
+      "photo": "https://m.media-amazon.com/images/I/619c+UQZaOL._AC_UF894,1000_QL80_.jpg",
+      "genre": "Drama",
+      "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other."
+    },
+    {
+      "id": 18,
+      "title": "The Departed",
+      "year": 2006,
+      "photo": "https://m.media-amazon.com/images/I/81ZOilPKzYL._AC_UF1000,1000_QL80_.jpg",
+      "genre": "Crime",
+      "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
+    },
+    {
+      "id": 19,
+      "title": "Whiplash",
+      "year": 2014,
+      "photo": "https://www.ibs.it/images/8013123049285_0_536_0_75.jpg",
+      "genre": "Drama",
+      "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student\"s potential."
+    },
+    {
+      "id": 20,
+      "title": "Django Unchained",
+      "year": 2012,
+      "photo": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg",
+      "genre": "Drama",
+      "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+    }
+  ],
+  "favorite": [
+    {
+      "movieId": 2,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "movieId": 2,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "movieId": 1,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "movieId": 1,
+      "userId": 3,
+      "id": 6
+    }
+  ]
+}

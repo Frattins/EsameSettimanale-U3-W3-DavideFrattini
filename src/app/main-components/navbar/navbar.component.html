@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-dark">
+  <a class="navbar-brand text-opacity-50 text-light mx-2" routerLink="/"
+    >NOTFLIX</a
+  >
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div
+    class="collapse navbar-collapse d-flex justify-content-between"
+    id="navbarSupportedContent"
+  >
+    <ul class="navbar-nav">
+      <li *ngIf="isLoggedIn" class="nav-item active">
+        <a
+          class="nav-link active text-opacity-50 text-light"
+          routerLink="/homepage"
+          >Home</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn" class="nav-item">
+        <a class="nav-link text-opacity-50 text-light" routerLink="users"
+          >Users</a
+        >
+      </li>
+      <li *ngIf="!isLoggedIn" class="nav-item active">
+        <a class="nav-link active text-opacity-50 text-light" routerLink="login"
+          >Login</a
+        >
+      </li>
+      <li *ngIf="!isLoggedIn" class="nav-item active">
+        <a
+          class="nav-link active text-opacity-50 text-light"
+          routerLink="register"
+          >Register</a
+        >
+      </li>
+    </ul>
+    <ul class="navbar-nav mx-4">
+      <li *ngIf="isLoggedIn" class="nav-item">
+        <button
+          (click)="logout()"
+          class="nav-link btn btn-link text-opacity-50 text-light"
+        >
+          Logout
+        </button>
+      </li>
+      <li *ngIf="isLoggedIn" class="nav-item active">
+        <a class="nav-link text-opacity-50 text-light" routerLink="profile"
+          >Profile</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
